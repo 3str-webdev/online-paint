@@ -9,7 +9,7 @@ import styles from "./IndexPage.module.scss";
 const IndexPage: FC = () => {
   const Picture = usePicture();
   return <div className={styles.page}>
-    <Canvas />
+    <Canvas data={Picture} />
   </div>;
 };
 
